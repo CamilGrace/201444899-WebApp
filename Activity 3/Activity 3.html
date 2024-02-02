@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 03-HTML Exercise</title>
+</head>
+<body>
+    <nav>
+        <div class = "topnav">
+            <a href="#home">Home</a><br>
+            <a href="#aboutus">About Us</a><br>
+            <a href="#signin">Sign In</a><br>
+        </div>
+    </nav>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<header>
+    <br>
+    <h1 id="home">WELCOME TO MY PAGE!</h1>
+</header>
+
+<h3>Lee Taeyong - NCT</h3>
+<p><abbr title="Lee Taeyong">TY</abbr> is a South Korean rapper under SM Entertainment. He is a member of the boy group NCT, its sub-units NCT U and NCT 127, and also a member of the supergroup SuperM.</p>
+<img src="https://i.pinimg.com/originals/ca/41/64/ca41644e330e39753c3aa0f01fe70556.jpg" width="200" height="300" alt="Lee Taeyong - NCT">
+
+<figure>
+    <figcaption><strong>Listen to the audio:</strong></figcaption>
+    <audio controls src="HappyIntro.mp3">
+    </audio>
+    <a href="HappyIntro.mp3"><br>Download audio</a>
+</figure>
+
+<figure>
+    <figcaption><strong>Watch the video:</strong></figcaption>
+    <video controls width="350">
+        <source src="TAEYONG.mp4" type="video/mp4">
+    </video>
+    <a href="TAEYONG.mp4"><br>Download video</a>
+</figure>
+
+<h2 id="aboutus">About Us</h2>
+<p>Hello and welcome to my sample page!</p>
+<p>I'm a dedicated student passionate about learning and sharing knowledge. This sample page serves as a platform for me to showcase my work.</p>
+
+<div>
+    <h2 id="signin">Sign In</h2>
+    <form action="#">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" pattern="[a-z]{1,15}" required> <br><br>
+        
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"  required><br><br>
+    
+        <label for="number">Contact Number:</label>
+        <input type="tel" id="number" name="number" pattern="[0-9]" required><br><br>
+    
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" pattern="[a-z0-9._%+-]" required><br><br>
+        
+        <br>
+        <label for="male">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <input type="checkbox" id="terms" name="terms" value="accepted" required>
+        <label for="terms">I accept the Terms and Conditions</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<br>
+<div>
+    <h4>TABLE</h4>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th> Age</th>
+            <th> City</th>
+        </tr>
+        <tr>
+            <td>Camil</td>
+            <td> 21</td>
+            <td> Baguio City</td>
+        </tr>
+    </table>
+</div>
+
+
+<br>
+<h3>Google Map - Baguio City</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61239.98184663558!2d120.54757511651465!3d16.39947128794726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a16879def13f%3A0x8edef534be3a75c0!2sBaguio%2C%20Benguet!5e0!3m2!1sen!2sph!4v1706873836990!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<br>
+<h3>Taeyong - A thread</h3>
+<br>
+<blockquote class="twitter-tweet"><p lang="tl" dir="ltr">taeyong : a thread <a href="https://t.co/ic957fHuot">pic.twitter.com/ic957fHuot</a></p>&mdash; rini 툥 (@oxotae701) <a href="https://twitter.com/oxotae701/status/1719782911329931416?ref_src=twsrc%5Etfw">November 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<footer>
+    <p>&copy; All rights reserved. 2024 First Website</p>
+</footer>
+</body>
+</html>
